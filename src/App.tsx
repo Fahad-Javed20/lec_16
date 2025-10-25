@@ -36,9 +36,9 @@ function App() {
   return (
     <>
       <div className="flex gap-5">
-        <ProfileComponent {...user[0]} />
-        <ProfileComponent {...user[1]} />
-        <ProfileComponent {...user[2]} />
+        <ProfileComponent user = { user[0]} />
+        <ProfileComponent user = { user[1]} />
+        <ProfileComponent user = { user[2]} />
       </div>
     </>
   );
