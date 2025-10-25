@@ -11,16 +11,11 @@ const ProfileComponent = ({
 }: ProfileComponentProps) => {
   return (
     <div className="bg-white h-86 w-1/3 rounded-xl shadow-lg">
-      <img className="h-1/2 w-full object-cover" src={image} alt="" />
+      <img className="h-1/2 w-full object-cover rounded" src={image} alt="" />
       <p className="text-gray-400 text-left pl-3 mt-4">ROLE</p>
       <h1 className="font-bold text-left pl-3">{name}</h1>
       <p className="px-3 text-justify">{discription}</p>
 
-
-
-
-
-      
       <div className="flex items-center flex-wrap px-4 mt-6 ">
               <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More 
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">

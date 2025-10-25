@@ -28,7 +28,7 @@ function App() {
 
   <ProfileComponent
         image={
-          "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
+          "https://images.unsplash.com/photo-1503235930437-8c6293ba41f5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
         }
         name={"Sarah Davis"}
         discription={
